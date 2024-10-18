@@ -12,10 +12,10 @@ Joint work with Ivan Gvozdanovic
 ## Data 
 
 
-1. Test dataset gerrymandria.json by [Gerrychain](https://github.com/mggg/GerryChain/blob/main/docs/_static/gerrymandria.json)
+1. Test graph dataset gerrymandria.json by [Gerrychain](https://github.com/mggg/GerryChain/blob/main/docs/_static/gerrymandria.json)
 
 
-2. 2020 Census Redistricting Data (P.L. 94-171) Census Tract Shapefile for Illinois by [Redistricting Data Hub]{https://redistrictingdatahub.org/dataset/illinois-census-tract-boundaries-2020}.
+2. 2020 Census Redistricting Data (P.L. 94-171) Census Tract Shapefile for Illinois by [Redistricting Data Hub](https://redistrictingdatahub.org/dataset/illinois-census-tract-boundaries-2020).
 
 ##Retrieval Date 02/25/2021
 Source: https://www.census.gov/programs-surveys/decennial-census/about/rdo/summary-files.html#P1
