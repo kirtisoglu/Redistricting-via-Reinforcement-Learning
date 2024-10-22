@@ -1,4 +1,15 @@
 
+NODULES
+
+1. data_utils:      contains tools to upload, save, and plot data.                                        IN PROGRESS
+2. test:            to create a smaller universe to test our ideas on a smaller dataset.                  IN PROGRESS        
+3. graph:              to construct a dual graph of a geographical region, from a data file.              IN PROGRESS
+
+4. travel_times:       to calculate precise travel times between locations using a GTFS dataset.
+
+
+
+
 
 To-Do-List
 
@@ -11,6 +22,8 @@ To-Do-List
 5. Change the repo name.
 
 
+
+
 Notes
 
 Useful libraries: gerrytools, maup, pcompress
@@ -19,11 +32,4 @@ Open source to access Census and ACS Data -> https://pygis.io/docs/d_access_cens
 
 
 
-NODULES
-
-1. data_utils:      contains tools to upload, save, and plot data.                                        IN PROGRESS
-2. test:            to create a smaller universe to test our ideas on a smaller dataset.                  IN PROGRESS        
-3. graph:              to construct a dual graph of a geographical region, from a data file.              IN PROGRESS
-
-4. travel_times:       to calculate precise travel times between locations using a GTFS dataset.
 
