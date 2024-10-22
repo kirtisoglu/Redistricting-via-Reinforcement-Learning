@@ -1,0 +1,29 @@
+
+
+To-Do-List
+
+1. Convert coordinates (CRS). Consult epsg.io to find a good choice of CRS.
+    gdf.crs checks CRS coordinates
+    gdf.to_crs(epsg=xxxx, inplace=True)  converts coordinates to xxxx
+
+2. Merge population data.
+3. Define travel times and a metric.
+5. Change the repo name.
+
+
+Notes
+
+Useful libraries: gerrytools, maup, pcompress
+Geodata Converter: https://mapshaper.org/
+Open source to access Census and ACS Data -> https://pygis.io/docs/d_access_census.html
+
+
+
+NODULES
+
+1. data_utils:      contains tools to upload, save, and plot data.                                        IN PROGRESS
+2. test:            to create a smaller universe to test our ideas on a smaller dataset.                  IN PROGRESS        
+3. graph:              to construct a dual graph of a geographical region, from a data file.              IN PROGRESS
+
+4. travel_times:       to calculate precise travel times between locations using a GTFS dataset.
+

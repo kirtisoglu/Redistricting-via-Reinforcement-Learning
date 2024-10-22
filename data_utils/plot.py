@@ -7,7 +7,7 @@ import plotly.graph_objects as go
 import plotly.express as px
 import branca.colormap as cm
 import branca
-from .DataHandler import DataHandler
+from .data_handler import DataHandler
 from gerrychain.partition import Partition
 import folium
 import folium.plugins
