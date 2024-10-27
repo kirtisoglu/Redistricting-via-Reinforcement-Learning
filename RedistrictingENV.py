@@ -54,13 +54,6 @@ class PolytopeENV(Env):
         self.path = 0
         self.episode += 1
         
-        
-        # Start from a random visited state
-        # state_indx = 0
-        
-        # state_indx = 0
-        # if len(self.initial_states.keys()) > 1:
-        #     state_indx = random.randint(0,len(self.initial_states.keys())-1)
         state = self.initial_state
         self.state = state
  

@@ -25,7 +25,7 @@ class PolytopeENV(Env):
                  initial_state,
                  total_episodes, 
                  show_path_num,
-                 action_size):
+                 partition_num):
         super(PolytopeENV, self).__init__()
 
         
@@ -33,14 +33,14 @@ class PolytopeENV(Env):
         self.initial_state = initial_state
         self.show_path_num = show_path_num
         self.total_episodes = total_episodes
-        self.action_size = action_size
+        self.partition_num = partition_num
         self.episode = -1
 
         
         # Action space (assuming each action component can take multiple discrete values)
         num_action_components = len(basis_moves)  # Number of dimensions in the action space
-        # self.action_space = spaces.MultiDiscrete([len(move) for move in self.basis_move])  # Define the multi-discrete action space
-        self.action_space = spaces.Discrete(action_size)
+        self.action_space = spaces.MultiDiscrete([len(move) for move in self.partition_num])  # Define the multi-discrete action space
+        # self.action_space = spaces.Discrete(action_size)
         # Observation space (assuming the state is represented by an array of integers)
         self.observation_space = spaces.Box(low=0, high=np.inf, shape=self.initial_state.shape, dtype=np.int32)
 
@@ -54,13 +54,6 @@ class PolytopeENV(Env):
         self.path = 0
         self.episode += 1
         
-        
-        # Start from a random visited state
-        # state_indx = 0
-        
-        # state_indx = 0
-        # if len(self.initial_states.keys()) > 1:
-        #     state_indx = random.randint(0,len(self.initial_states.keys())-1)
         state = self.initial_state
         self.state = state
  
