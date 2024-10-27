@@ -17,6 +17,11 @@ from helper_functions import check_connectivity, create_state_graph
 
 
 
+class ClassicPolicy(nn.Module):
+
+    
+
+
 class Policy(nn.Module):
    
     def __init__(self, feature_arch, input_size, output_size):
@@ -187,8 +192,6 @@ def select_action(model, state, SavedAction, action_space_values, testing):
         actions.append(action)  # Store the sampled action
         log_probs.append(m.log_prob(action))  # Store the log probability
         
-    
-    
     # save to action buffer
     model.saved_actions.append(SavedAction(log_probs, state_value))
 
