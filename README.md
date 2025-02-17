@@ -2,7 +2,7 @@
 # Redistricting 
 
 
-This project aims to tackle redistricting problem and improve upon existing solution algorithms. Our approach combines advanced applied algebra with machine learning algorithms to produce practical solutions on large-scale datasets. (Joint work with Ivan Gvozdanovic)
+This project aims to tackle the redistricting problem and improve existing solution algorithms. Our approach combines advanced applied algebra with machine learning algorithms to produce practical solutions on large-scale datasets. The Master branch contains the current work. (Joint work with Ivan Gvozdanovic)
 
 
 Any recommendations or suggestions are welcome. We would like to hear your feedback.
